@@ -50,9 +50,9 @@ export default function ProjectFooter({ next, prev }: ProjectFooterProps) {
               />
             </g>
             <defs>
-              <clippath id="clip0_1435_183">
+              <clipPath id="clip0_1435_183">
                 <rect width={24} height={24} fill="white" transform="translate(0.223389)" />
-              </clippath>
+              </clipPath>
             </defs>
           </svg>
           <MyLink linkName={prev}>Previous Project</MyLink>
@@ -76,9 +76,9 @@ export default function ProjectFooter({ next, prev }: ProjectFooterProps) {
               />
             </g>
             <defs>
-              <clippath id="clip0_1435_188">
+              <clipPath id="clip0_1435_188">
                 <rect width={24} height={24} fill="white" transform="translate(0.723389)" />
-              </clippath>
+              </clipPath>
             </defs>
           </svg>
         </Link>
@@ -100,9 +100,9 @@ export default function ProjectFooter({ next, prev }: ProjectFooterProps) {
               />
             </g>
             <defs>
-              <clippath id="clip0_1435_195">
+              <clipPath id="clip0_1435_195">
                 <rect width={24} height={24} fill="white" transform="translate(0.223389)" />
-              </clippath>
+              </clipPath>
             </defs>
           </svg>
         </div>

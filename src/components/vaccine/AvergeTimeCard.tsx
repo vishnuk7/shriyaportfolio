@@ -40,9 +40,9 @@ export default function AvergeTimeCard({ avergeTimeSpent }: AvergeTimeCardProps)
                         />
                     </g>
                     <defs>
-                        <clippath id="clip0_1358_1437">
+                        <clipPath id="clip0_1358_1437">
                             <rect width={32} height={32} fill="white" transform="translate(0 0.888672)" />
-                        </clippath>
+                        </clipPath>
                     </defs>
                 </svg>
             </div>
