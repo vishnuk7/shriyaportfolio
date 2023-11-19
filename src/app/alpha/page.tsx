@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 "use client";
 
 import React, { Suspense } from 'react';

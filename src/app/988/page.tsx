@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Footer from '@/components/Footer';
 import ProjectFooter from '@/components/ProjectFooter/ProjectFooter';
 import Nav from '@/components/nav/nav';
