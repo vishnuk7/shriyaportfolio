@@ -24,8 +24,8 @@ export default function NavList() {
 								<Link href='/contact' className={`block text-center py-2 pl-3 pr-4  rounded ${pathname === '/contact' ? 'bg-primary text-white' : 'text-black'}`}>Contact</Link>
 							</li>
 							<li>
-								<Link href='/pdf/Shriya_Resume.pdf' className={`block text-center py-2 pl-3 pr-4  rounded ${pathname === '/resume' ? 'bg-primary text-white' : 'text-black'}`} passHref legacyBehavior>
-									<a target='_blank' rel="noopener noreferrer">Resume</a>
+								<Link href='/pdf/Shriya_Resume.pdf' passHref legacyBehavior>
+									<a className={`block text-center py-2 pl-3 pr-4  rounded ${pathname === '/resume' ? 'bg-primary text-white' : 'text-black'}`} target='_blank' rel="noopener noreferrer">Resume</a>
 								</Link>
 							</li>
 						</ul>
