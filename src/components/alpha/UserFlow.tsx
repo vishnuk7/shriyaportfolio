@@ -7,7 +7,7 @@ type UserFlowProps = {
 
 export default function UserFlow({ SVGFileName }: UserFlowProps) {
     return (
-        <TransformWrapper defaultScale={1} defaultPositionX={200} defaultPositionY={100}
+        <TransformWrapper
             onPanningStart={() => document.body.style.cursor = 'grab'}
             onPanningStop={() => document.body.style.cursor = 'default'}>
             {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
