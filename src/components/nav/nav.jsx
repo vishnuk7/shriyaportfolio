@@ -18,9 +18,14 @@ export default function NavList() {
                 <div className="">
                     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                         <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
-                            {
-                                CONSTANTS.NAV_LIST.map(d => <NavItems key={new Date()} text={d} />)
-                            }
+                            <li> <a href="#" className="block text-center py-2 pl-3 pr-4 text-white bg-primary rounded " aria-current="page">Home</a>
+                            </li>
+                            <li>
+            <a href="#" className="block text-center py-2 pl-3 pr-4 text-white bg-primary rounded " aria-current="page">Contact</a>
+                            </li>
+                            <li>
+            <a href="/pdf/Shriya_Resume.pdf" target='_blank' className="block text-center py-2 pl-3 pr-4 text-white bg-primary rounded " aria-current="page">Resume</a>
+        </li>
                         </ul>
                     </div>
                 </div>
