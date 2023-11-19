@@ -42,9 +42,9 @@ export const InteroperableIcon = () => {
                     />
                 </g>
                 <defs>
-                    <clippath id="clip0_1047_1376">
+                    <clipPath id="clip0_1047_1376">
                         <rect width={24} height={24} fill="white" transform="translate(13.5 13)" />
-                    </clippath>
+                    </clipPath>
                 </defs>
             </svg>
         </>
@@ -138,9 +138,9 @@ export const DistributedDataIcon = () => {
                     />
                 </g>
                 <defs>
-                    <clippath id="clip0_1047_1406">
+                    <clipPath id="clip0_1047_1406">
                         <rect width={24} height={24} fill="white" transform="translate(13.5 13)" />
-                    </clippath>
+                    </clipPath>
                 </defs>
             </svg>
         </>
@@ -212,7 +212,7 @@ export const PinIcon = () => {
                     stroke-width="0.975749"
                 />
                 <defs>
-                    <lineargradient
+                    <linearGradient
                         id="paint0_linear_1047_1471"
                         x1="11.0629"
                         y1="2.00317"
@@ -222,8 +222,8 @@ export const PinIcon = () => {
                     >
                         <stop stop-color="#15DACF" stop-opacity="0.4" />
                         <stop offset={1} stop-color="#27B6AE" />
-                    </lineargradient>
-                    <lineargradient
+                    </linearGradient>
+                    <linearGradient
                         id="paint1_linear_1047_1471"
                         x1="11.0629"
                         y1="2.00317"
@@ -233,7 +233,7 @@ export const PinIcon = () => {
                     >
                         <stop stop-color="#15DACF" stop-opacity="0.4" />
                         <stop offset={1} stop-color="#27B6AE" />
-                    </lineargradient>
+                    </linearGradient>
                 </defs>
             </svg>
         </>
@@ -265,7 +265,7 @@ export const CakeIcon = () => {
                     fill="url(#paint2_linear_1047_1474)"
                 />
                 <defs>
-                    <lineargradient
+                    <linearGradient
                         id="paint0_linear_1047_1474"
                         x1="10.4834"
                         y1="9.15857"
@@ -275,8 +275,8 @@ export const CakeIcon = () => {
                     >
                         <stop stop-color="#15DACF" stop-opacity="0.4" />
                         <stop offset={1} stop-color="#27B6AE" />
-                    </lineargradient>
-                    <lineargradient
+                    </linearGradient>
+                    <linearGradient
                         id="paint1_linear_1047_1474"
                         x1="10.4834"
                         y1="9.15857"
@@ -286,8 +286,8 @@ export const CakeIcon = () => {
                     >
                         <stop stop-color="#15DACF" stop-opacity="0.4" />
                         <stop offset={1} stop-color="#27B6AE" />
-                    </lineargradient>
-                    <lineargradient
+                    </linearGradient>
+                    <linearGradient
                         id="paint2_linear_1047_1474"
                         x1="10.4833"
                         y1="2.65369"
@@ -297,7 +297,7 @@ export const CakeIcon = () => {
                     >
                         <stop stop-color="#15DACF" stop-opacity="0.4" />
                         <stop offset={1} stop-color="#27B6AE" />
-                    </lineargradient>
+                    </linearGradient>
                 </defs>
             </svg>
         </>
@@ -322,7 +322,7 @@ export const HeartIcon = () => {
                     stroke-width="0.975749"
                 />
                 <defs>
-                    <lineargradient
+                    <linearGradient
                         id="paint0_linear_1047_1478"
                         x1="11.6686"
                         y1="4.12012"
@@ -332,7 +332,7 @@ export const HeartIcon = () => {
                     >
                         <stop stop-color="#15DACF" stop-opacity="0.4" />
                         <stop offset={1} stop-color="#27B6AE" />
-                    </lineargradient>
+                    </linearGradient>
                 </defs>
             </svg>
         </>
@@ -362,7 +362,7 @@ export const SuitCaseIcon = () => {
                     fill="url(#paint1_linear_1047_1481)"
                 />
                 <defs>
-                    <lineargradient
+                    <linearGradient
                         id="paint0_linear_1047_1481"
                         x1="11.1644"
                         y1="4.36267"
@@ -372,8 +372,8 @@ export const SuitCaseIcon = () => {
                     >
                         <stop stop-color="#15DACF" stop-opacity="0.4" />
                         <stop offset={1} stop-color="#27B6AE" />
-                    </lineargradient>
-                    <lineargradient
+                    </linearGradient>
+                    <linearGradient
                         id="paint1_linear_1047_1481"
                         x1="11.1644"
                         y1="4.36267"
@@ -383,7 +383,7 @@ export const SuitCaseIcon = () => {
                     >
                         <stop stop-color="#15DACF" stop-opacity="0.4" />
                         <stop offset={1} stop-color="#27B6AE" />
-                    </lineargradient>
+                    </linearGradient>
                 </defs>
             </svg>
         </>
