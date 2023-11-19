@@ -1,12 +1,19 @@
-import Image from 'next/image';
-
+"use client"
 import Nav from '@/components/nav/nav'
 import Link from 'next/link';
 import Footer from '@/components/Footer';
+import { useRouter } from 'next/navigation';
 // import NavItem from "@/components/nav/nav-item";
 
 
 export default function Home() {
+  const router = useRouter();
+
+  const handleClick = () => {
+    // Assuming you want to navigate to '/about' page
+    router.push('/contact');
+  };
+
   return (
     <div>
       <Nav />
@@ -114,7 +121,13 @@ export default function Home() {
           </div>
 
           <div className="mt-8 w-2/3">
-            I am looking forward to talk about exciting opportunities and also open to exploring consulting and freelance opportunities. I love meeting and talking to new people. Or just want to say Hi? Feel free to reach out 👋
+            <div className='mb-8'>
+              <p>I am looking forward to talk about exciting opportunities and also open to exploring consulting and freelance opportunities. I love meeting and talking to new people. Or just want to say Hi? Feel free to reach out 👋
+              </p>
+            </div>
+            <button onClick={handleClick} className="flex justify-center items-center flex-grow-0 flex-shrink-0 h-[50px] relative overflow-hidden gap-2 px-6 py-2 rounded bg-[#00559a]">
+              <p className="flex-grow-0 flex-shrink-0 text-base text-left text-white">Get In Touch</p>
+            </button>
           </div>
         </section>
 

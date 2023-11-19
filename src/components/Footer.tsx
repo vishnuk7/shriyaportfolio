@@ -9,14 +9,14 @@ export default function Footer() {
                 <p className="text-light-text">Shriya Shukla | Copyright © 2023</p>
                 <div className="flex">
                     <div className='flex justify-center items-center rounded-full bg-assets w-9 h-9 opacity-50 mr-3'>
-                        <img src="/icons/email.svg" />
+                        <a href="mailto:shriyush3004@gmail.com" target='_blank'><img src="/icons/email.svg" /></a>
                     </div>
 
                     <div className='flex justify-center items-center rounded-full bg-assets w-9 h-9 opacity-50'>
-                        <img src="/icons/linkedin.svg" />
+                        <a href="https://www.linkedin.com/profile/in/shriya-shukla/" target='_blank'><img src="/icons/linkedin.svg" /></a>
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer >
     )
 }
