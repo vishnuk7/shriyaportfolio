@@ -27,14 +27,14 @@ export default function Alpha() {
     return (
         <div>
             <Nav />
-            <div className="flex flex-col ml-48 mr-48">
+            <div className="flex flex-col mx-[9.375rem]">
                 <div className='mb-12'>
                     <p className="self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black">
                         Alpha - All Licensing and Permitting Hub
                     </p>
                 </div>
 
-                <div className='flex mb-16'>
+                <div className='flex justify-between mb-16'>
                     <div className='w-1/2'>
                         <div className="flex flex-col justify-start items-start relative gap-4 py-10">
                             <p className="flex-grow-0 flex-shrink-0 text-2xl font-bold text-left text-black">
@@ -42,16 +42,12 @@ export default function Alpha() {
                             </p>
                             <p className="flex-grow-0 flex-shrink-0  text-base text-left text-[#000e10]">
                                 <span className="flex-grow-0 flex-shrink-0  text-base text-left text-[#000e10]">
-                                    ALPHA is a licensing, permitting and inspections solution that helps the users to succeed
-                                    through compliance. Its based on simple, powerful and intuitive salesforce based platform
-                                    which truly puts user in control by enabling them to track the progress of every application —
-                                    from desktop or smartphone, day or night — wherever you are and whenever you want.
+                                    ALPHA is a licensing, permitting and inspections solution that helps the users to succeed through compliance.
                                 </span>
                                 <br />
                                 <br />
                                 <span className="flex-grow-0 flex-shrink-0 text-base text-left text-[#000e10]">
-                                    This product covers all the requirements to make licensing and permitting process work
-                                    efficiently to meet its very cause of creation.
+                                    Its based on simple, powerful and intuitive salesforce based platform which truly puts user in control by enabling them to track the progress of every application.
                                 </span>
                             </p>
                         </div>
@@ -59,13 +55,12 @@ export default function Alpha() {
                             <p className="flex-grow-0 flex-shrink-0 text-2xl font-bold text-left text-black">
                                 Facets of the Product
                             </p>
+
                             <p className="flex-grow-0 flex-shrink-0 text-base text-left text-[#000e10]">
-                                The process of licensing and permitting applications typically demands a significant amount of
-                                time. However, ALPHA provides an efficient solution by categorizing crucial actions based on
-                                priority. Users can now complete their tasks in just a few steps, ensuring a smooth and
-                                user-friendly experience. Additionally, the interactive dashboard offers a quick glance at the
-                                status of user licenses, important notifications, inspections, and investigations, all within a
-                                unified interface.
+                                The process of licensing and permitting applications typically demands a significant amount of time. However, ALPHA provides an efficient solution by categorizing crucial actions based on priority. Users can complete their tasks in just a few steps, ensuring a smooth and user-friendly experience.
+                            </p>
+                            <p className="flex-grow-0 flex-shrink-0 text-base text-left text-[#000e10]">
+                                Additionally, the interactive dashboard offers a quick glance at the status of user licenses, important notifications, inspections, and investigations, all within a unified interface.
                             </p>
                         </div>
                     </div>
@@ -81,10 +76,10 @@ export default function Alpha() {
 
                 <div className='mb-16'>
                     <div className="flex flex-col  gap-[1.813rem]">
-                        <div className="flex justify-start items-start gap-[1.813rem]">
+                        <div className="flex justify-between items-start gap-[1.813rem]">
                             {renderedIcons(["Scalable", "Interoperable", "High Visbility", "Accessible"])}
                         </div>
-                        <div className="flex justify-start items-start gap-[1.813rem]">
+                        <div className="flex justify-between items-start gap-[1.813rem]">
                             {renderedIcons(["Centralised Database", "Distributed Data", "Integrable", "Customizable"])}
                         </div>
                     </div>
@@ -138,9 +133,7 @@ export default function Alpha() {
                             </div>
                             <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 gap-8">
                                 <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 gap-4">
-                                    <p className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black">
-                                        The solutions we came up with to solve the said problems are
-                                    </p>
+
                                     <ul className='list-disc list-outside ml-8'>
                                         <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black mb-4">
                                             Getting all good points from existing solutions
@@ -243,6 +236,25 @@ export default function Alpha() {
 
 
 
+                </div>
+
+                <div className='mb-[3.688rem]'>
+
+                    <div className='mb-4'>
+                        <p className="text-2xl font-bold text-left text-black">Information Architecture</p>
+                    </div>
+                    <div className='mb-6'>
+                        <p className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-[#000e10]">
+                            This research served as the foundation for crafting an effective information architecture. This
+                            helped us understand navigation and content of the entire application.
+                        </p>
+                    </div>
+                    <div className='flex justify-center items-center mb-12'>
+                        <img className='w-full h-full' src="/works/alpha/one.svg" alt="" />
+                    </div>
+                    <div className='flex justify-center items-center'>
+                        <img className='w-full h-full' src="/works/alpha/two.svg" alt="" />
+                    </div>
                 </div>
 
                 <div className='mb-[3.688rem]'>
@@ -660,35 +672,32 @@ export default function Alpha() {
                 </div>
 
                 <div className='mb-[3.688rem]'>
-                    <div className='mb-12'>
+                    <div className='mb-4'>
                         <p className="text-2xl font-bold text-left text-black">User Flow</p>
                     </div>
-                    <div className='mb-10'>
-                        <p className="self-stretch flex-grow-0 flex-shrink-0  text-xl font-medium text-center text-[#394041]">
-                            Applicant &amp; Licensee
+                    <div className='mb-12'>
+                        <p className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-[#000e10]">
+                            Since the research gave the idea of basic flow that each persona will take but to make the end
+                            users experience smooth and easy it was important to understand each step of the flow.{" "}
                         </p>
                     </div>
-                    <div className='hover:cursor-zoom-in mb-12'>
+                    {/* <div className='hover:cursor-zoom-in mb-12'>
                         <Suspense fallback={<div>Loading...</div>}>
                             <UserFlow SVGFileName={AlphaSVG.ApplicantLicenseSVG} />
                         </Suspense>
+                    </div> */}
+                    <div className='flex justify-center items-center mb-12'>
+                        <img className='w-full h-full' src="/works/alpha/three.svg" alt="" />
                     </div>
-                    <div className='mb-10'>
-                        <p className="self-stretch flex-grow-0 flex-shrink-0  text-xl font-medium text-center text-[#394041]">
-                            Internal Staff/Reviewer
-                        </p>
-                    </div>
-                    <div className='flex justify-center '>
-                        <div className='hover:cursor-zoom-in mb-12'>
-                            <Suspense fallback={<div>Loading...</div>}>
-                                <UserFlow SVGFileName={AlphaSVG.InternalStaffSVG} />
-                            </Suspense>
+                    <div className='flex justify-center'>
+                        <div className='flex justify-center items-center w-[31.25rem]'>
+                            <img className='w-full h-full' src="/works/alpha/four.svg" alt="" />
                         </div>
                     </div>
                 </div>
 
                 <div className='mb-16'>
-                    <div className='mb-12'>
+                    <div className='mb-4'>
                         <p className="text-2xl font-bold text-left text-black">Usability Testing</p>
                     </div>
                     <div>

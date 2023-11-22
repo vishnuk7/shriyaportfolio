@@ -9,22 +9,22 @@ export default function Project1() {
         <div>
             <Nav />
 
-            <div className="flex flex-col ml-48 mr-48 mb-16">
-                <div className='flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 w-[1136px] relative gap-12 mb-16'>
-                    <p className='self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-4xl font-bold text-center text-black'>
+            <div className="flex flex-col mx-[9.375rem] mb-16">
+                <div className='flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-12 mb-16'>
+                    <p className='self-stretch flex-grow-0 flex-shrink-0 text-4xl font-bold text-center text-black'>
                         988 - The National Suicide Prevention Lifeline of US
                     </p>
-                    <div className='flex justify-between items-start flex-grow-0 flex-shrink-0 w-[1136px] relative'>
-                        <div className='flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 w-[558px] relative gap-4 py-10'>
-                            <p className='flex-grow-0 flex-shrink-0 w-[558px] text-base text-left text-black'>
-                                <span className='flex-grow-0 flex-shrink-0 w-[558px] text-base text-left text-black'>
+                    <div className='flex justify-between items-start flex-grow-0 flex-shrink-0  w-full'>
+                        <div className='flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 w-1/2 gap-4 py-10'>
+                            <p className='flex-grow-0 flex-shrink-0 text-base text-left text-black'>
+                                <span className='flex-grow-0 flex-shrink-0 text-base text-left text-black'>
                                     988, a new 3-digit hotline number in the United States, serves as a mental health
                                     service dedicated to offering crucial assistance to individuals when they require it
                                     most.{' '}
                                 </span>
                                 <br />
                                 <br />
-                                <span className='flex-grow-0 flex-shrink-0 w-[558px] text-base text-left text-black'>
+                                <span className='flex-grow-0 flex-shrink-0 text-base text-left text-black'>
                                     Beyond merely being a novel contact number, 988 presents us with the opportunity to
                                     reconsider our approach to addressing mental health concerns, substance use disorders,
                                     and suicide prevention within our communities. It represents a significant expansion of
@@ -32,10 +32,10 @@ export default function Project1() {
                                 </span>
                             </p>
                         </div>
-                        <div className='flex-grow-0 flex-shrink-0 w-[484.68px] h-[310px] relative'>
+                        <div className='flex-grow-0 flex-shrink-0 relative'>
                             <img
                                 src='/works/988/image1.png'
-                                className='w-[484.68px] h-[310px] absolute left-[-0.56px] top-[-0.56px] object-cover'
+                                className='w-[30.2925rem] h-[19.375rem] object-cover'
                             />
                         </div>
                     </div>
@@ -89,15 +89,15 @@ export default function Project1() {
                         <p className="absolute left-0 top-0 text-2xl font-bold text-left text-black">Research</p>
                     </div>
                     <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-4">
-                        <p className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-black">
+                        <p className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black">
                             The important question to ask here was why Research is required?
                         </p>
                         <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-4">
                             <ul className='list-disc list-outside ml-8'>
-                                <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-black ">
+                                <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black mb-4">
                                     988 is a new feature yet be rolled out
                                 </li>
-                                <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-black">
+                                <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black">
                                     An existing 10 digit number for mental related help already existed but 988 requirement was
                                     much more
                                 </li>
@@ -118,14 +118,14 @@ export default function Project1() {
                         </p>
                         <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-4">
                             <ul className="list-disc list-outside ml-8">
-                                <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-black">
+                                <li className="self-stretch flex-grow-0 flex-shrink-0 mb-4  text-base text-left text-black">
                                     Timeline - timeline was strict and I had to choose my process efficiently keeping in mind
                                     the budget and resources.
                                 </li>
-                                <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-black">
+                                <li className="self-stretch flex-grow-0 flex-shrink-0 mb-4  text-base text-left text-black">
                                     What I know - 988 is a 3-digit hotline number yet to be launched hence limited information.
                                 </li>
-                                <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-black">
+                                <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black">
                                     Being a new product, primary research was important , hence participant recruitment was to
                                     be started early.
                                 </li>
@@ -136,7 +136,7 @@ export default function Project1() {
 
 
 
-                <div className="flex justify-between items-center flex-grow-0 flex-shrink-0 w-[1136px] relative mb-16">
+                <div className="flex justify-between items-center flex-grow-0 flex-shrink-0  relative mb-16">
                     <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 gap-14">
                         <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-12">
                             <p className="flex-grow-0 flex-shrink-0 w-[558px] text-base text-left text-black">
@@ -173,18 +173,18 @@ export default function Project1() {
                     </div>
                     <img
                         src="/works/988/image2.png"
-                        className="flex-grow-0 flex-shrink-0 w-[497px] h-[590px] object-cover"
+                        className="flex-grow-0 flex-shrink-0 w-[31.0625rem] h-[36.875rem] object-cover"
                     />
                 </div>
 
-                <p className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-black mb-16">
+                <p className="self-stretch flex-grow-0 flex-shrink-0 text-base text-left text-black mb-16">
                     I encountered an abundance of insights from user interviews, secondary research, and feedback from
                     peers. To streamline the process of organizing this extensive dataset, I leveraged affinity
                     mapping as a means of prioritization.
                 </p>
 
                 <div className="flex justify-between items-start self-stretch flex-grow-0 flex-shrink-0 mb-16">
-                    <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 w-[497px] gap-10">
+                    <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0  gap-10">
                         <div
                             className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-4 px-5 py-4 bg-white"
                             style={{ boxShadow: "0px 0px 8px 0 rgba(0,85,154,0.1)" }}
@@ -232,20 +232,20 @@ export default function Project1() {
                         </p>
                         <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-4">
                             <ul className='list-disc list-outside ml-8'>
-                                <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-black">
-                                    <span className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base font-bold text-left text-black">
+                                <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black mb-4">
+                                    <span className="self-stretch flex-grow-0 flex-shrink-0  text-base font-bold text-left text-black">
                                         Call Centre Professionals
                                     </span>
-                                    <span className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-black">
+                                    <span className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black">
                                         {" "}
                                         - responsible for handling calls
                                     </span>
                                 </li>
-                                <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-black">
-                                    <span className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base font-bold text-left text-black">
+                                <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black">
+                                    <span className="self-stretch flex-grow-0 flex-shrink-0  text-base font-bold text-left text-black">
                                         Mobile Crisis Unit -
                                     </span>
-                                    <span className="self-stretch flex-grow-0 flex-shrink-0 w-[1136px] text-base text-left text-black">
+                                    <span className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black">
                                         {" "}
                                         required for emergency situations
                                     </span>
@@ -544,7 +544,7 @@ export default function Project1() {
                     </div>
                 </div>
 
-                <div>
+                <div className='mb-16'>
                     <div className="flex justify-start items-start flex-grow-0 flex-shrink-0 w-[1169px] relative gap-2.5 mb-8">
                         <p className="flex-grow-0 flex-shrink-0 text-2xl font-bold text-left text-black">Mockups</p>
                     </div>
@@ -607,7 +607,7 @@ export default function Project1() {
                 </div>
 
                 <div className='mb-16'>
-                    <div className="flex justify-start items-start flex-grow-0 flex-shrink-0 w-[1169px] relative gap-2.5">
+                    <div className="flex justify-start items-start flex-grow-0 flex-shrink-0  relative gap-2.5 mb-6">
                         <p className="flex-grow-0 flex-shrink-0 text-xl font-bold text-left text-black">
                             Mobile crisis unit portal
                         </p>
@@ -748,10 +748,10 @@ export default function Project1() {
                             </p>
                             <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-4">
                                 <ul className='list-disc list-outside ml-8'>
-                                    <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black">
+                                    <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black mb-4">
                                         We were prepared ahead of the 988 launch date.
                                     </li>
-                                    <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black">
+                                    <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black mb-4">
                                         We unified all mental health facilities under one umbrella.
                                     </li>
                                     <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black">

@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div>
       <Nav />
-      <div className="ml-48 mr-48">
+      <div className="mx-[9.375rem]">
         <div className="flex">
           <div className='flex-auto w-1/2'>
             <div className="mb-8">
@@ -55,57 +55,57 @@ export default function Home() {
           </div>
 
           <div className="mb-16">
-            <Link href="/988" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-4xl hover:bg-gray-10">
+            <Link href="/988" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-10">
               {/* <Image src="/988L.png" alt="hero image" className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"  /> */}
-              <div className="w-full h-full">
-                <img className="object-cover w-full rounded-t-lg h-full md:h-auto md:rounded-none md:rounded-s-lg" src="/988L.png" alt="" />
+              <div className="w-1/2">
+                <img className="object-cover w-[35.1548rem] h-[25.75rem] rounded-t-lg md:rounded-none md:rounded-s-lg" src="/988L.png" alt="" />
               </div>
-              <div className="flex flex-col justify-between mx-10 my-8 leading-normal">
+              <div className="flex flex-col justify-between mx-[3.0716rem] my-[2.3037rem] leading-normal">
                 <div className="mb-6">
                   <h5 className="mb-8 text-2xl font-bold tracking-tight text-gray-900 ">988 - The National Suicide Prevention Lifeline of US</h5>
                   <p className="mb-3 font-normal text-card-text">A Portal for frontline mental health workers to expand their reach.</p>
                 </div>
                 <div>
-                  <span className="bg-blue-100 text-blue-800 text-base font-medium me-2 px-4 py-1 rounded-full mr-3">Product</span>
-                  <span className="bg-green-100 text-green-800 text-base font-medium me-2 px-4 py-1 rounded-full">Healthcare</span>
+                  <span className="bg-[#EBF2F7] text-primary text-base font-medium me-2 px-4 py-1 rounded-full mr-3">Product</span>
+                  <span className="bg-[#EAF2EA] text-[#1B5E20] text-base font-medium me-2 px-4 py-1 rounded-full">Healthcare</span>
                 </div>
               </div>
             </Link>
           </div>
 
           <div className="mb-16">
-            <Link href="/vaccine" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-4xl hover:bg-gray-10">
+            <Link href="/vaccine" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-10">
               {/* <Image src="/988L.png" alt="hero image" className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"  /> */}
-              <div className="w-full h-full">
-                <img className="object-cover w-full rounded-t-lg h-full md:h-auto md:rounded-none md:rounded-s-lg" src="/VaccineL.png" alt="" />
+              <div className="w-1/2">
+                <img className="object-cover w-[35.1548rem] h-[25.75rem] rounded-t-lg md:rounded-none md:rounded-s-lg" src="/VaccineL.png" alt="" />
               </div>
-              <div className="flex flex-col justify-between mx-10 my-8 leading-normal">
+              <div className="flex flex-col justify-between mx-[3.0716rem] my-[2.3037rem] leading-normal">
                 <div className="mb-6">
                   <h5 className="mb-8 text-2xl font-bold tracking-tight text-gray-900 ">Vaccine Appointment Flow Redesign</h5>
-                  <p className="mb-3 font-normal  text-card-text">A/B testing to redesign and improve a vaccine appointment flow.</p>
+                  <p className="mb-3 font-normal text-card-text">A/B testing to redesign and improve a vaccine appointment flow..</p>
                 </div>
                 <div>
-                  <span className="bg-blue-100 text-blue-800 text-base font-medium me-2 px-4 py-1 rounded-full mr-3">Public Sector</span>
-                  <span className="bg-green-100 text-green-800 text-base font-medium me-2 px-4 py-1 rounded-full">Healthcare</span>
+                  <span className="bg-[#EBF2F7] text-primary text-base font-medium me-2 px-4 py-1 rounded-full mr-3">Public Sector</span>
+                  <span className="bg-[#EAF2EA] text-[#1B5E20] text-base font-medium me-2 px-4 py-1 rounded-full">Healthcare</span>
                 </div>
               </div>
             </Link>
           </div>
 
           <div className="mb-16">
-            <Link href="/alpha" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-4xl hover:bg-gray-10">
+            <Link href="/alpha" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-10">
               {/* <Image src="/988L.png" alt="hero image" className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"  /> */}
-              <div className="w-full h-full">
-                <img className="object-cover w-full rounded-t-lg h-full md:h-auto md:rounded-none md:rounded-s-lg" src="/alpha.png" alt="" />
+              <div className="w-1/2">
+                <img className="object-cover w-[35.1548rem] h-[25.75rem] rounded-t-lg md:rounded-none md:rounded-s-lg" src="/alpha.png" alt="" />
               </div>
-              <div className="flex flex-col justify-between mx-10 my-8 leading-normal">
+              <div className="flex flex-col justify-between mx-[3.0716rem] my-[2.3037rem] leading-normal">
                 <div className="mb-6">
                   <h5 className="mb-8 text-2xl font-bold tracking-tight text-gray-900 ">ALPHA - All Licensing & Permitting Hub</h5>
-                  <p className="mb-3 font-normal  text-card-text">A Web application for your Gateway to Streamlined Licensing and Permits Solutions.</p>
+                  <p className="mb-3 font-normal text-card-text">A Web application for your Gateway to Streamlined Licensing and Permits Solutions</p>
                 </div>
                 <div>
-                  <span className="bg-blue-100 text-blue-800 text-base font-medium me-2 px-4 py-1 rounded-full mr-3">Product</span>
-                  <span className="bg-green-100 text-green-800 text-base font-medium me-2 px-4 py-1 rounded-full">Licensing</span>
+                  <span className="bg-[#EBF2F7] text-primary text-base font-medium me-2 px-4 py-1 rounded-full mr-3">Product</span>
+                  <span className="bg-[#EAF2EA] text-[#1B5E20] text-base font-medium me-2 px-4 py-1 rounded-full">Licensing</span>
                 </div>
               </div>
             </Link>
@@ -125,9 +125,20 @@ export default function Home() {
               <p>I am looking forward to talk about exciting opportunities and also open to exploring consulting and freelance opportunities. I love meeting and talking to new people. Or just want to say Hi? Feel free to reach out 👋
               </p>
             </div>
-            <button onClick={handleClick} className="flex justify-center items-center flex-grow-0 flex-shrink-0 h-[50px] relative overflow-hidden gap-2 px-6 py-2 rounded bg-[#00559a]">
-              <p className="flex-grow-0 flex-shrink-0 text-base text-left text-white">Get In Touch</p>
-            </button>
+            <div className='flex items-center gap-[18.75rem]'>
+              {/* <button onClick={handleClick} className="flex justify-center items-center flex-grow-0 flex-shrink-0 h-[50px] relative overflow-hidden gap-2 px-6 py-2 rounded bg-[#00559a]">
+                <p className="flex-grow-0 flex-shrink-0 text-base text-left text-white">Get In Touch</p>
+              </button> */}
+              <div className="flex">
+                <div className='flex justify-center items-center rounded-full bg-assets w-9 h-9 opacity-50 mr-3 cursor-pointer'>
+                  <a href="mailto:shriyush3004@gmail.com" target='_blank'><img src="/icons/email.svg" /></a>
+                </div>
+
+                <div className='flex justify-center items-center rounded-full bg-assets w-9 h-9 opacity-50 cursor-pointer'>
+                  <a href="https://www.linkedin.com/profile/in/shriya-shukla/" target='_blank'><img src="/icons/linkedin.svg" /></a>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 

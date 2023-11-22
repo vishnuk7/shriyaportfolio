@@ -13,7 +13,7 @@ export default function Vaccine() {
     return (
         <div>
             <Nav />
-            <div className="flex flex-col ml-48 mr-48 mb-[5.3727rem]">
+            <div className="flex flex-col mx-[9.375rem] mb-[5.3727rem]">
                 <div className='mb-16'>
                     <p className="flex-grow-0 flex-shrink-0 w-[1136px] text-4xl font-bold text-center text-black">
                         Usability Testing of Vaccine Appointment Scheduling Flow{" "}
@@ -21,7 +21,7 @@ export default function Vaccine() {
                 </div>
 
                 <div className='mb-16'>
-                    <div className="flex justify-start items-start flex-grow-0 flex-shrink-0 relative gap-[5.125rem]">
+                    <div className="flex justify-between items-start flex-grow-0 flex-shrink-0 relative gap-[5.125rem]">
                         <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 w-[34.875rem] relative gap-4">
                             <p className="flex-grow-0 flex-shrink-0 w-[34.875rem] text-base text-left text-black">
                                 <span className="flex-grow-0 flex-shrink-0 w-[34.875rem] text-base text-left text-black">
@@ -432,7 +432,7 @@ export default function Vaccine() {
                                             <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black mb-8">
                                                 Users very easily found the main button associated with task without any misclicks
                                             </li>
-                                            <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-[#00559a]">
+                                            <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left ">
                                                 The icons played an important role of maintaining the focus
                                             </li>
 
@@ -477,10 +477,10 @@ export default function Vaccine() {
                                         <li className="self-stretch flex-grow-0 flex-shrink-0 w-[562px] text-base text-left text-black mb-4">
                                             Misclicks were found with user confusing between clicking of first dose and second dose.
                                         </li>
-                                        <li className="self-stretch flex-grow-0 flex-shrink-0 w-[562px] text-base text-left text-[#00559a] mb-4 ">
+                                        <li className="self-stretch flex-grow-0 flex-shrink-0 w-[562px] text-base text-left  mb-4 ">
                                             Reason being sudden release of information on the same page
                                         </li>
-                                        <li className="self-stretch flex-grow-0 flex-shrink-0 w-[562px] text-base text-left text-[#00559a] mb-4 ">
+                                        <li className="self-stretch flex-grow-0 flex-shrink-0 w-[562px] text-base text-left  mb-4 ">
                                             Selection of dose should be made on a separate page to avoid overwhelming of users
                                         </li>
                                     </ul>
@@ -499,8 +499,8 @@ export default function Vaccine() {
                             User rating Comparison
                         </p>
                         <div className="flex flex-col justify-center items-center self-stretch flex-grow-0 flex-shrink-0 gap-8">
-                            <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 w-[43.3125rem] gap-4">
-                                <div className="flex justify-between items-start flex-grow-0 flex-shrink-0 w-[43.3125rem] relative">
+                            <div className="flex flex-col justify-between items-start flex-grow-0 flex-shrink-0 w-[43.3125rem] gap-4">
+                                <div className="flex justify-between items-start flex-grow-0 flex-shrink-0 w-full relative">
                                     <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-4">
                                         <p className="flex-grow-0 flex-shrink-0 text-base text-left text-[#abb0b0]">
                                             Control Flow
@@ -509,34 +509,35 @@ export default function Vaccine() {
                                     <p className="flex-grow-0 flex-shrink-0 text-base text-left text-[#abb0b0]">Variant Flow</p>
                                 </div>
                             </div>
-                            <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 gap-6 px-4">
-                                <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 gap-20">
+                            <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 gap-6 px-4 w-[43.3125rem]">
+                                <div className="flex justify-between  items-center flex-grow-0 flex-shrink-0 gap-20 w-full">
                                     <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-2">
                                         <p className="flex-grow-0 flex-shrink-0 text-4xl font-bold text-left text-black">9.8</p>
                                         <p className="flex-grow-0 flex-shrink-0 text-base text-left text-[#abb0b0]">Avg</p>
                                     </div>
-                                    <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 relative overflow-hidden gap-2.5 px-8 py-3 rounded-3xl bg-[#d1eef7]">
-                                        <p className="flex-grow-0 flex-shrink-0 text-base text-left text-black">
+                                    <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 relative overflow-hidden gap-2.5 px-8 py-3 rounded-3xl bg-[#d1eef7] w-[17.5625rem]">
+                                        <p className="flex-grow-0 flex-shrink-0 text-base text-left text-black  w-[17.5625rem] px-8 py-3">
                                             Did the experience meet your expectations ?
                                         </p>
                                     </div>
                                     <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-2">
-                                        <p className="flex-grow-0 flex-shrink-0 text-4xl font-bold text-left text-black">9.8</p>
+                                        <p className="flex-grow-0 flex-shrink-0 text-4xl font-bold text-left text-black">9.2</p>
                                         <p className="flex-grow-0 flex-shrink-0 text-base text-left text-[#abb0b0]">Avg</p>
                                     </div>
                                 </div>
-                                <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 gap-20">
+                                <div className="flex justify-between items-center flex-grow-0 flex-shrink-0 gap-20 w-full">
                                     <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-2">
-                                        <p className="flex-grow-0 flex-shrink-0 text-4xl font-bold text-left text-black">9.8</p>
+                                        <p className="flex-grow-0 flex-shrink-0 text-4xl font-bold text-left text-black">9.6</p>
                                         <p className="flex-grow-0 flex-shrink-0 text-base text-left text-[#abb0b0]">Avg</p>
                                     </div>
-                                    <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 relative overflow-hidden gap-2.5 px-8 py-3 rounded-3xl bg-[#d1eef7]">
-                                        <p className="flex-grow-0 flex-shrink-0 text-base text-left text-black">
-                                            Did the experience meet your expectations ?
+                                    <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 relative overflow-hidden gap-2.5 px-8 py-3 rounded-3xl bg-[#d1eef7]  w-[17.5625rem]">
+                                        <p className="flex-grow-0 flex-shrink-0 text-base text-left text-black  w-[17.5625rem] px-8 py-3">
+                                            How did you find the ease of
+                                            use ?
                                         </p>
                                     </div>
                                     <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-2">
-                                        <p className="flex-grow-0 flex-shrink-0 text-4xl font-bold text-left text-black">9.8</p>
+                                        <p className="flex-grow-0 flex-shrink-0 text-4xl font-bold text-left text-black">9.0</p>
                                         <p className="flex-grow-0 flex-shrink-0 text-base text-left text-[#abb0b0]">Avg</p>
                                     </div>
                                 </div>
@@ -557,7 +558,7 @@ export default function Vaccine() {
                             <li className="self-stretch flex-grow-0 flex-shrink-0 w-[562px] text-base text-left text-black mb-4">
                                 Control Flow A was more successful than the Variant flow B in terms of usability and intuitive nature
                             </li>
-                            <li className="self-stretch flex-grow-0 flex-shrink-0 w-[562px] text-base text-left text-[#00559a] mb-4 ">
+                            <li className="self-stretch flex-grow-0 flex-shrink-0 w-[562px] text-base text-left mb-4 ">
                                 However variant flow B landing page was much better in getting the task done with the icons present along with action
                             </li>
                         </ul>

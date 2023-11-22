@@ -8,7 +8,7 @@ import React from 'react';
 export default function NavList() {
 	const pathname = usePathname();
 	return (
-		<nav className='nav-bg border-gray-200 py-6 mb-16'>
+		<nav className='nav-bg border-gray-200 py-6 mb-16 '>
 			<div className='flex items-center justify-between mx-6'>
 				<Logo />
 				{/* for responsive code */}
@@ -20,9 +20,9 @@ export default function NavList() {
 							<li>
 								<Link href='/' className={`block text-center py-2 pl-3 pr-4  rounded ${pathname === '/' ? 'bg-primary text-white' : 'text-black'}`}>Home</Link>
 							</li>
-							<li>
+							{/* <li>
 								<Link href='/contact' className={`block text-center py-2 pl-3 pr-4  rounded ${pathname === '/contact' ? 'bg-primary text-white' : 'text-black'}`}>Contact</Link>
-							</li>
+							</li> */}
 							<li>
 								<Link href='/pdf/Shriya_Resume.pdf' passHref legacyBehavior>
 									<a className={`block text-center py-2 pl-3 pr-4  rounded ${pathname === '/resume' ? 'bg-primary text-white' : 'text-black'}`} target='_blank' rel="noopener noreferrer">Resume</a>
