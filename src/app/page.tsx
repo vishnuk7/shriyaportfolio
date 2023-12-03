@@ -43,14 +43,15 @@ export default function Home() {
           </div>
           <div className="w-1/2">
             <div className="w-full h-full flex justify-center items-center">
-              <dotlottie-player
-                autoplay
-                loop
-                mode="normal"
-                src="/hero.lottie"
-                style={{ height: '100%', width: '500px' }}
-              >
-              </dotlottie-player>
+              {typeof window != undefined ?
+                <dotlottie-player
+                  autoplay
+                  loop
+                  mode="normal"
+                  src="/hero.lottie"
+                  style={{ height: '100%', width: '500px' }}
+                />
+                : <></>}
               {/* <img src="/hero.svg" alt="hero image" /> */}
               {/* <Image src="/hero.svg" alt="hero image"  fill /> */}
             </div>
