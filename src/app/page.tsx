@@ -3,8 +3,10 @@ import Nav from '@/components/nav/nav'
 import Link from 'next/link';
 import Footer from '@/components/Footer';
 import { useRouter } from 'next/navigation';
+import React, { useRef } from 'react';
 // import NavItem from "@/components/nav/nav-item";
-import '@dotlottie/player-component';
+
+
 
 export default function Home() {
   const router = useRouter();
@@ -13,6 +15,11 @@ export default function Home() {
     // Assuming you want to navigate to '/about' page
     router.push('/contact');
   };
+
+  const ref = useRef(null);
+  React.useEffect(() => {
+    import("@dotlottie/player-component");
+  });
 
   return (
     <div>
@@ -43,15 +50,14 @@ export default function Home() {
           </div>
           <div className="w-1/2">
             <div className="w-full h-full flex justify-center items-center">
-              {typeof window != undefined ?
-                <dotlottie-player
-                  autoplay
-                  loop
-                  mode="normal"
-                  src="/hero.lottie"
-                  style={{ height: '100%', width: '500px' }}
-                />
-                : <></>}
+              <dotlottie-player
+                autoplay
+                loop
+                ref={ref}
+                mode="normal"
+                src="/hero.lottie"
+                style={{ height: '100%', width: '500px' }}
+              />
               {/* <img src="/hero.svg" alt="hero image" /> */}
               {/* <Image src="/hero.svg" alt="hero image"  fill /> */}
             </div>
