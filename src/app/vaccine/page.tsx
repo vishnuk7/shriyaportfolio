@@ -127,14 +127,14 @@ export default function Vaccine() {
                 </div>
 
                 <div className='mb-16'>
-                    <div className="flex flex-col justify-start items-start gap-10">
+                    <div className="flex flex-col justify-start items-start w-[71.25rem] gap-10">
                         <ControlFlowImgCard imgOne="img2" imgTwo="img3" />
                         <ControlFlowImgCard imgOne="img4" imgTwo="img5" />
                     </div>
                 </div>
 
                 <div className='mb-8'>
-                    <div className="flex flex-col justify-start items-start w-[1140px] relative gap-8">
+                    <div className="flex flex-col justify-start items-start w-[71.25rem] relative gap-8">
                         <p className="flex-grow-0 flex-shrink-0 text-2xl font-bold text-left text-black">
                             The Variant flow - Modified
                         </p>
@@ -162,7 +162,7 @@ export default function Vaccine() {
                 </div>
 
                 <div className='mb-16'>
-                    <div className="flex flex-col justify-start items-start w-[1140px] gap-10">
+                    <div className="flex flex-col justify-start items-start w-[71.25rem] gap-10">
                         <ControlFlowImgCard imgOne="img6" imgTwo="img7" />
                         <ControlFlowImgCard imgOne="img8" imgTwo="img9" />
                     </div>
@@ -487,7 +487,7 @@ export default function Vaccine() {
                                 </div>
                             </div>
                             <div className='w-1/2'>
-                                <ImgCard imgName='img15' w="full" h="auto" />
+                                <ImgCard imgName='img15' h="auto" />
                             </div>
                         </div>
                     </div>
@@ -581,7 +581,7 @@ export default function Vaccine() {
                                 concern in the whole testing result
                             </p>
                         </div>
-                        <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 gap-10">
+                        <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 w-[71.25rem] gap-10">
                             <ControlFlowImgCard imgOne='img16' imgTwo='img17' />
                             <ControlFlowImgCard imgOne='img18' imgTwo='img19' />
                         </div>

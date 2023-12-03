@@ -126,7 +126,7 @@ export default function Project1() {
                                     What I know - 988 is a 3-digit hotline number yet to be launched hence limited information.
                                 </li>
                                 <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black">
-                                    Being a new product, primary research was important , hence participant recruitment was to
+                                    Being a new product, primary research was important, hence participant recruitment was to
                                     be started early.
                                 </li>
                             </ul>
@@ -136,7 +136,7 @@ export default function Project1() {
 
 
 
-                <div className="flex justify-between items-center flex-grow-0 flex-shrink-0  relative mb-16">
+                <div className="flex justify-between items-center flex-grow-0 flex-shrink-0  relative mb-16  gap-28 max-w-[71.25rem]">
                     <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 gap-14">
                         <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-12">
                             <p className="flex-grow-0 flex-shrink-0 w-[558px] text-base text-left text-black">
@@ -183,7 +183,7 @@ export default function Project1() {
                     mapping as a means of prioritization.
                 </p>
 
-                <div className="flex justify-between items-start self-stretch flex-grow-0 flex-shrink-0 mb-16">
+                <div className="flex justify-between items-start self-stretch flex-grow-0 flex-shrink-0 mb-16  gap-28 max-w-[71.25rem]">
                     <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0  gap-10">
                         <div
                             className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-4 px-5 py-4 bg-white"
@@ -313,7 +313,7 @@ export default function Project1() {
                         </p>
                         <ul className="list-disc list-outside ml-8">
                             <li className="flex-grow-0 flex-shrink-0 w-[558px] text-base text-left text-black mb-4">
-                                There are two teams , Call centre and Mobile Crisis Unit (MCU)
+                                There are two teams, Call centre and Mobile Crisis Unit (MCU)
                             </li>
                             <li className="flex-grow-0 flex-shrink-0 w-[558px] text-base text-left text-black mb-4">
                                 Severity of cases is decided by the the call centre
@@ -344,7 +344,7 @@ export default function Project1() {
                                 Should we design mobile first?
                             </li>
                             <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1148px] text-base text-left text-black mb-4">
-                                Should we go for sketches , low-fi wireframe then hi -fi wireframe?
+                                Should we go for sketches, low-fi wireframe then hi-fi wireframe?
                             </li>
                             <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1148px] text-base text-left text-black">
                                 By when we can have a prototype to demo and test?
@@ -366,7 +366,7 @@ export default function Project1() {
                 </div>
 
                 <div className='mb-16'>
-                    <div className="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 space-y-[-80px]">
+                    <div className="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 space-y-[-80px] max-w-[71.25rem]">
                         <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5">
                             <img
                                 src="/works/988/image7.png"
@@ -391,7 +391,7 @@ export default function Project1() {
                                         Assessment aid to decide risk factor
                                     </li>
                                     <li className="flex-grow-0 flex-shrink-0 w-[558px] text-base text-left text-black mb-4">
-                                        Booking appointments, referrals , hospital beds.
+                                        Booking appointments, referrals, hospital beds.
                                     </li>
                                     <li className="flex-grow-0 flex-shrink-0 w-[558px] text-base text-left text-black">
                                         Dispatching MCU as main function on high risk cases.
@@ -410,7 +410,7 @@ export default function Project1() {
                         </p>
                     </div>
                     <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-[27.393739700317383px]">
-                        <p className="self-stretch flex-grow-0 flex-shrink-0 w-[1148px] text-[13.696869850158691px] text-left text-black">
+                        <p className="self-stretch flex-grow-0 flex-shrink-0 w-[1148px] text-left text-black">
                             Since MCU Portal was mobile and less screens were required, I focused exclusively on
                             wireframing high impact screens and specific modules whose functionality needed to be laid out
                             for our developers.
@@ -418,7 +418,7 @@ export default function Project1() {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 relative space-y-[-64px] mb-16">
+                <div className="flex flex-col justify-start items-center self-stretch flex-grow-0 flex-shrink-0 relative space-y-[-64px] mb-16  max-w-[71.25rem]">
                     <div
                         className="self-stretch flex-grow-0 flex-shrink-0 h-[703.07px] relative bg-white"
                         style={{ boxShadow: "0px 0px 8px 0 rgba(0,85,154,0.1)" }}
@@ -458,7 +458,7 @@ export default function Project1() {
                     </div>
                     <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-4">
                         <p className="self-stretch flex-grow-0 flex-shrink-0 w-[1148px] text-base text-left text-black">
-                            Even we came up with several ideas that could feature on the product , but it was important to
+                            Even we came up with several ideas that could feature on the product, but it was important to
                             select those that met business goals and also can be completed in the deadline.
                         </p>
                         <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-4">
@@ -470,7 +470,7 @@ export default function Project1() {
                                     Assessment of the caller based on standard assessments and deciding severity
                                 </li>
                                 <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1148px] text-base text-left text-black mb-4">
-                                    Assigning of referrals , appointments , or even hospital beds if required
+                                    Assigning of referrals, appointments, or even hospital beds if required
                                 </li>
                                 <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1148px] text-base text-left text-black mb-4">
                                     Sending MCU unit in high severity cases and providing them with callers info
@@ -492,7 +492,7 @@ export default function Project1() {
                     <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-4">
                         <p className="self-stretch flex-grow-0 flex-shrink-0 w-[1148px] text-base text-left text-black">
                             <span className="self-stretch flex-grow-0 flex-shrink-0 w-[1148px] text-base text-left text-black">
-                                The ideation at this point was pretty obvious and was not very hard , infact any competitor
+                                The ideation at this point was pretty obvious and was not very hard, infact any competitor
                                 would come up with similar features if proper design process is followed.
                             </span>
                             <br />
@@ -512,7 +512,7 @@ export default function Project1() {
                                     The journey of each case can be seen
                                 </li>
                                 <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1148px] text-base text-left text-black mb-3">
-                                    Further actions can be added like appointments , referrals after getting feedback on current
+                                    Further actions can be added like appointments, referrals after getting feedback on current
                                     actions from patients
                                 </li>
                                 <li className="self-stretch flex-grow-0 flex-shrink-0 w-[1148px] text-base text-left text-black">
@@ -548,7 +548,7 @@ export default function Project1() {
                     <div className="flex justify-start items-start flex-grow-0 flex-shrink-0 w-[1169px] relative gap-2.5 mb-8">
                         <p className="flex-grow-0 flex-shrink-0 text-2xl font-bold text-left text-black">Mockups</p>
                     </div>
-                    <div className="flex justify-start items-start flex-grow-0 flex-shrink-0 w-[1169px] relative gap-2.5">
+                    <div className="flex justify-start items-start flex-grow-0 flex-shrink-0 w-[1169px] relative gap-2.5 mb-6">
                         <p className="flex-grow-0 flex-shrink-0 text-xl font-bold text-left text-black">
                             Call Centre portal
                         </p>

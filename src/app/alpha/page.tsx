@@ -105,9 +105,7 @@ export default function Alpha() {
                                 <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 gap-4">
                                     <ul className='list-disc list-outside ml-8'>
                                         <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black mb-4">
-                                            MTX has been making licensing and permit application , but it required a product that
-                                            consolidated all the existing features with main goal to keep it user-centric apart from
-                                            meeting the business goals
+                                            MTX has been making licensing and permit application, but we wanted to create a product that consolidated all the existing features with main goal to keep it user-centric
                                         </li>
                                         <li className="self-stretch flex-grow-0 flex-shrink-0  text-base text-left text-black mb-4">
                                             One common drawback of existing solutions was the absence of an end-user perspective.
@@ -166,12 +164,7 @@ export default function Alpha() {
                             </div>
                             <div className="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0  gap-14">
                                 <p className="self-stretch flex-grow-0 flex-shrink-0 text-base text-left text-black">
-                                    Given our prior experience with licensing projects, we began by conducting extensive secondary
-                                    research to gather valuable insights. This research served as the foundation for crafting an
-                                    effective information architecture. Furthermore, we recognized the importance of understanding
-                                    our user base better, which led us to create personas. These personas allowed us to gain
-                                    invaluable insights into our users' behaviours, needs, and preferences, enabling us to design
-                                    a more user-centric solution.
+                                    Given our prior experience with licensing projects, we began by conducting extensive secondary research to gather valuable insights.
                                 </p>
                             </div>
                         </div>
@@ -260,7 +253,12 @@ export default function Alpha() {
                 <div className='mb-[3.688rem]'>
 
                     <div className='mb-12'>
-                        <p className="text-2xl font-bold text-left text-black">Defining Persona</p>
+                        <p className="text-2xl font-bold text-left text-black mb-4">Defining Persona</p>
+                        <p className="self-stretch flex-grow-0 flex-shrink-0 text-base text-left text-[#000e10]">
+                            We know the importance of understanding our user base better, which led us to create personas.
+                            These personas allowed us to gain invaluable insights into our users' behaviours, needs, and
+                            preferences, enabling us to design a more user-centric solution.
+                        </p>
                     </div>
                     <div>
                         <div className='flex justify-center mb-12'>

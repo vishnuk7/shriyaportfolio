@@ -9,7 +9,9 @@ export default function Footer() {
         }}>
             <div className="flex justify-between items-center">
                 <p className="text-light-text">Shriya Shukla | Copyright © 2023</p>
-
+                <div className='flex justify-center items-center rounded-full bg-[#807DFB] w-9 h-9 opacity-50 cursor-pointer'>
+                    <a href="https://www.linkedin.com/profile/in/shriya-shukla/" target='_blank'><img src="/icons/linkedin.svg" /></a>
+                </div>
             </div>
         </footer >
     )
